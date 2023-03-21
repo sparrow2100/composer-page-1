@@ -1,0 +1,18 @@
+.main-section {
+  background: linear-gradient(
+    145deg,
+    rgb(44, 67, 212) 0%,
+    rgb(150, 119, 237) 100%
+  );
+}
+
+.biography-photo {
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  background-color: white;
+}
+
+h1 {
+  color: white;
+}
