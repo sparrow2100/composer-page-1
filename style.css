@@ -160,3 +160,28 @@ h3 {
 .first-piece {
   border-top: 2px solid #5943e1;
 }
+
+.footer {
+  background: linear-gradient(
+    145deg,
+    rgb(44, 67, 212) 0%,
+    rgb(150, 119, 237) 100%
+  );
+  padding-top: 100px;
+  padding-bottom: 20px;
+  margin-top: 25px;
+}
+
+.github-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.github-link:hover {
+  cursor: pointer;
+}
+
+.credit {
+  text-align: center;
+}
