@@ -2,12 +2,26 @@
   font-family: inter, sans-serif;
 }
 
+.header {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
 .main-section {
   background: linear-gradient(
     145deg,
     rgb(44, 67, 212) 0%,
     rgb(150, 119, 237) 100%
   );
+}
+
+.container {
+  padding: 80px;
+}
+
+.title-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .biography-photo-div {
@@ -18,11 +32,22 @@
   box-shadow: 7px 8px 11px rgba(0, 0, 0, 0.1);
 }
 .biography-photo {
+  width: 350px;
+  height: 350px;
+  border-radius: 175px;
+  margin-left: 25px;
+  margin-top: 25px;
+  border: 2px solid #5943e1;
 }
 
 h1 {
   color: white;
   font-size: 40px;
+}
+
+.title {
+  padding-left: 40px;
+  padding-top: 70px;
 }
 
 p {
@@ -63,4 +88,25 @@ h2 {
   opacity: 0.9;
   cursor: pointer;
   transition: all 300ms ease-in-out;
+}
+
+.button-flex {
+  padding-bottom: 20px;
+  padding-top: 15px;
+
+  width: 500px;
+
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.biography {
+  border-bottom: 2px solid white;
+  padding: 30px;
+}
+
+.compositions {
+  border-bottom: 2px solid white;
+  padding: 30px;
 }
